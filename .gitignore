@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Output files (examples)
+example_output.tsv
+test_output.tsv
+*_output.tsv
+
+# Data files (keep examples, but ignore large datasets)
+*.xlsx
+!example_data/*.xlsx
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
